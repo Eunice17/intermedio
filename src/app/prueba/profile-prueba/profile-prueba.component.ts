@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfilePruebaComponent implements OnInit {
 
+  nCards: Array<any>= [1,2,3,4,5,6];
   constructor() { }
 
   ngOnInit(): void {

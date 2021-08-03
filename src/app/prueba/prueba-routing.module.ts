@@ -8,7 +8,7 @@ const routes: Routes = [
     { path:'', component: PruebaComponent,
     children: [
         { path:'', component: DashboardPruebaComponent },
-        { path:'profile-imran', component: ProfilePruebaComponent }
+        { path:'imran-profile', component: ProfilePruebaComponent }
     ] }
 ]
 
