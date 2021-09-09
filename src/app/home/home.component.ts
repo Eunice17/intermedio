@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   items: Item[] = [];
   subscription!: Subscription;
-
+  value = 'Clear me';
   // items$!: Observable<Item[]>;
   constructor(public svc: ItemsService) { }
 
